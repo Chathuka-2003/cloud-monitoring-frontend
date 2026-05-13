@@ -27,7 +27,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app
-          path: ./build   # adjust if your output folder is different (e.g. ./dist)
+          path: ./dist   # adjust if your output folder is different (e.g. ./dist)
 
   deploy:
     runs-on: ubuntu-latest
